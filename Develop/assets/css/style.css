@@ -56,25 +56,32 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #78c5f5;
     color: #ffffff;
+    text-align: center
 
 }
 .Abtme img {
     max-width: 150px;
     float: left
-  
+
 }
 
-.Abtme h2 {
-     justify-content: center;
-     margin-left: 200px
+.horiseon {
+    flex:auto
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-shrink: 1;
+    gap: 10px
+
+
 }
+.horiseon img {
+ max-width: 500px;
+ display: block;  
+ flex-shrink: 1;
 
-.Abtme p {
-    margin-left: 200px
 }
-
-
-
 .products {
     flex: auto;
     background-color: #fff;
@@ -97,6 +104,12 @@ p {
     gap: 10px;
   }
 
+  .card img { 
+    width: 100%;
+    display: block; 
+    flex-shrink: 1;
+
+  }
   .Contact-me {
 
     margin-bottom: 20px;
@@ -105,6 +118,8 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #78c5f5;
     color: #ffffff;
+
+  }
 
 .footer {
     padding: 30px;
